@@ -15,7 +15,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-12 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left order-2 md:order-1">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight lobster">
                 Development of{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400">
                   Qr code
@@ -23,7 +23,7 @@ export default function Home() {
                 Based Chart
               </h1>
 
-              <p className="text-lg md:text-xl text-pink-200 mb-8 max-w-lg mx-auto md:mx-0">
+              <p className="text-lg md:text-xl text-pink-200 mb-8 max-w-lg mx-auto md:mx-0 ">
                 Instructional Material Integrating Scientific Names and
                 Termiologies in Grade 8 Cookery
               </p>
