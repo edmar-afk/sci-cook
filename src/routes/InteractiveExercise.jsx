@@ -32,7 +32,7 @@ function InteractiveExercise() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          Are you ready to take on another challenge?
+          With all the knowledge you learned. Are you ready to take on another challenge?
         </motion.p>
 
         <div className="flex justify-center mt-4 mb-44">
