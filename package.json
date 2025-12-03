@@ -19,6 +19,7 @@
     "autoprefixer": "^10.4.21",
     "axios": "^1.10.0",
     "dayjs": "^1.11.13",
+    "framer-motion": "^12.23.25",
     "leaflet": "^1.9.4",
     "mammoth": "^1.10.0",
     "postcss": "^8.5.6",
