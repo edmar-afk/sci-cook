@@ -53,7 +53,10 @@ function Contents() {
         </div>
       </div>
       <SadModal open={isSadModalOpen} handleClose={handleSadModalClose} />
-      {isCongratsOpen && <CongratsModal />}
+      <CongratsModal
+        open={isCongratsOpen}
+        handleClose={() => setIsCongratsOpen(false)}
+      />
     </div>
   );
 }

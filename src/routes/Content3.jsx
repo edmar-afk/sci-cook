@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Header from "../components/home/Header";
-import FirstIngredients from "../components/content2/FirstIngredients";
+import FirstIngredients from "../components/content3/FirstIngredients";
 import SadModal from "../components/SadModal";
 import CongratsModal from "../components/CongratsModal";
 import happinessIcon from "../assets/images/icons/happiness.png";
 import depressionIcon from "../assets/images/icons/depression.png";
 
-function Content2() {
+function Content3() {
   const [isSadModalOpen, setSadModalOpen] = useState(false);
   const [isCongratsOpen, setCongratsOpen] = useState(false);
 
@@ -53,4 +53,4 @@ function Content2() {
   );
 }
 
-export default Content2;
+export default Content3;

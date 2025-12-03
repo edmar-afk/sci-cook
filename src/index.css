@@ -4,6 +4,10 @@
   font-family: "Lobster", cursive;
 }
 
+b {
+  color: #db2777;
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);

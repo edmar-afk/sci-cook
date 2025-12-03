@@ -1,14 +1,14 @@
 import React from "react";
-import eggdishes from "../../assets/images/ingredients/eggdishes.jpg";
+import vegetabledishes from "../../assets/images/ingredients/vegetabledishes.png";
 import { cards } from "./useIngredients";
 
 function FirstIngredients() {
   return (
     <div>
       <p className="font-bold text-2xl text-center lg:text-left py-8 px-4">
-        Egg Dishes
+        Vegetable Dishes
       </p>
-      <img src={eggdishes} alt="" />
+      <img src={vegetabledishes} className="w-full" alt="" />
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (
           <div
@@ -19,7 +19,7 @@ function FirstIngredients() {
               <div className="md:shrink-0">
                 <img className="h-48 w-full object-cover" src={item.img} />
               </div>
-              <div className="p-8 min-h-[180px] flex flex-col">
+              <div className="p-8 min-h-[205px] flex flex-col">
                 <div className="uppercase tracking-wide text-sm text-pink-500 font-semibold">
                   {item.title}
                 </div>
