@@ -43,7 +43,7 @@ function InteractiveExercise() {
           >
             <Link
               to="/quiz"
-              className="bg-pink-600 rounded-full text-white py-2 px-12 flex items-center w-fit"
+              className="bg-pink-600 rounded-full text-white py-2 px-12 flex items-center w-fit hover:scale-110 duration-300 hover:bg-pink-900 hover:shadow-2xl"
             >
               Take me there
             </Link>
