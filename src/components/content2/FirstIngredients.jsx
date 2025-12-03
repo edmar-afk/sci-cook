@@ -1,19 +1,25 @@
 import React from "react";
+import { motion } from "framer-motion";
 import eggdishes from "../../assets/images/ingredients/eggdishes.jpg";
 import { cards } from "./useIngredients";
 
 function FirstIngredients() {
   return (
     <div>
+      {" "}
       <p className="font-bold text-2xl text-center lg:text-left py-8 px-4">
-        Egg Dishes
-      </p>
+        Egg Dishes{" "}
+      </p>{" "}
       <img src={eggdishes} alt="" />
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (
-          <div
+          <motion.div
             key={index}
             className="w-[350px] lg:w-[300px] bg-white rounded-xl shadow-md overflow-hidden"
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+            viewport={{ once: true }}
           >
             <div>
               <div className="md:shrink-0">
@@ -29,11 +35,16 @@ function FirstIngredients() {
                 <p className="mt-2 text-slate-500">{item.desc}</p>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
-
-      <p className="px-8 mt-8">
+      <motion.p
+        className="px-8 mt-8"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
         These ingredients form the essential building blocks of many egg-based
         dishes. <b>Eggs</b> serve as the main protein source, while seasonings
         like <b>salt</b> and <b>pepper</b> enhance flavor. Cooking{" "}
@@ -47,7 +58,7 @@ function FirstIngredients() {
         aroma, richness, and texture, making them the core components for a wide
         variety of egg dishes—from simple fried eggs to flavorful omelets,
         scrambles, and breakfast skillets.
-      </p>
+      </motion.p>
     </div>
   );
 }
