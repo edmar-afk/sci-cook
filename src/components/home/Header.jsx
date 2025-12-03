@@ -52,7 +52,7 @@ export default function Header() {
   return (
     <>
       <AppBar
-        position="static"
+        position="sticky"
         sx={{
           background: "linear-gradient(to right, #ec4899, #db2777)",
         }}

@@ -9,7 +9,7 @@ function Welcome() {
         draggable={false}
         alt=""
       />
-      <p className="absolute border-b-2 border-pink-500 border-dashed bottom-8 sm:bottom-14 left-8 lg:left-14 text-2xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-pink-800">
+      <p className="lobster absolute border-b-2 border-pink-500 border-dashed bottom-8 sm:bottom-14 left-14 text-2xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-pink-500">
         Welcome to <br/> SciCook
       </p>
     </div>
