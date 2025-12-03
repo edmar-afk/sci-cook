@@ -7,6 +7,7 @@ import Content4 from "./routes/Content4";
 import ScrollToTop from "./ScrollToTop";
 import Content5 from "./routes/Content5";
 import Content6 from "./routes/Content6";
+import Content7 from "./routes/Content7";
 
 function Logout() {
   localStorage.clear();
@@ -25,6 +26,7 @@ function App() {
         <Route path="/content4" element={<Content4 />} />
         <Route path="/content5" element={<Content5 />} />
         <Route path="/content6" element={<Content6 />} />
+        <Route path="/content7" element={<Content7 />} />
       </Routes>
     </BrowserRouter>
   );

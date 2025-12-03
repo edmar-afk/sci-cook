@@ -1,44 +1,44 @@
-import bread from "../../assets/images/ingredients/bread.jpg";
-import buttermargarine from "../../assets/images/ingredients/buttermargarine.jpg";
-import cheese from "../../assets/images/ingredients/cheese.jpg";
-import ham from "../../assets/images/ingredients/ham.jpeg";
-import lettucetomato from "../../assets/images/ingredients/lettucetomato.jpg";
-import mayoeggsaltpepper from "../../assets/images/ingredients/mayoeggsaltpepper.jpg";
+import rice from "../../assets/images/ingredients/rice.jpg";
+import potato from "../../assets/images/ingredients/potato.jpg";
+import buttermilk from "../../assets/images/ingredients/buttermilk.jpg";
+import carrotpeaseoniongarlic from "../../assets/images/ingredients/carrotpeaseoniongarlic.jpg";
+import oilsoysaltpepper from "../../assets/images/ingredients/oilsoysaltpepper.jpg";
+import pastatomatosugar from "../../assets/images/ingredients/pastatomatosugar.jpg";
 export const cards = [
   {
-    title: "Bread",
-    subtitle: "Triticum aestivum",
-    desc: "Staple base for sandwiches.",
-    img: bread,
+    title: "Rice",
+    subtitle: "Oryza sativa",
+    desc: "Staple carbohydrate.",
+    img: rice,
   },
   {
-    title: "Butter / Margarine",
-    subtitle: "Bos taurus",
-    desc: "Spread.",
-    img: buttermargarine,
+    title: "Potato",
+    subtitle: "Solanum tuberosum",
+    desc: "Starchy tuber.",
+    img: potato,
   },
   {
-    title: "Cheese",
-    subtitle: "Bos taurus",
-    desc: "Filling.",
-    img: cheese,
+    title: "Butter, Milk",
+    subtitle: "Bos taurus, Bos taurus",
+    desc: "Dairy.",
+    img: buttermilk,
   },
   {
-    title: "Ham / Luncheon meat",
-    subtitle: "Sus scrofa domesticus",
-    desc: "Protein filling.",
-    img: ham,
+    title: "Carrot, Peas, Onion, Garlic",
+    subtitle: "Daucus carota, Pisum sativum, Allium cepa, Allium sativum",
+    desc: "Vegetables.",
+    img: carrotpeaseoniongarlic,
   },
   {
-    title: "Lettuce, Tomato",
-    subtitle: "Lactuca sativa, Solanum lycopersicum",
-    desc: "Vegetables for sandwiches.",
-    img: lettucetomato,
+    title: "Cooking oil, Soy sauce, Salt, Pepper",
+    subtitle: "Various, Glycine max, Sodium chloride, Piper nigrum",
+    desc: "Seasoning.",
+    img: oilsoysaltpepper,
   },
   {
-    title: "Mayonnaise & Egg, Salt, Pepper ",
-    subtitle: "Gallus gallus domesticus, Sodium chloride, Piper nigrum",
-    desc: "Condiments and seasoning.",
-    img: mayoeggsaltpepper,
+    title: "Pasta, Tomato, Sugar",
+    subtitle: "Triticum durum, Solanum lycopersicum, Saccharum officinarum",
+    desc: "Cereal and flavor.",
+    img: pastatomatosugar,
   },
 ];
