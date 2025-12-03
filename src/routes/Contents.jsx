@@ -17,7 +17,6 @@ function Contents() {
   const handleSadModalClose = () => setIsSadModalOpen(false);
 
   const handleCongratsOpen = () => setIsCongratsOpen(true);
-  const handleCongratsClose = () => setIsCongratsOpen(false);
 
   return (
     <div className="mb-44 overflow-x-hidden">
