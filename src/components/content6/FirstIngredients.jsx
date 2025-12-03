@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
-import sandwiches from "../../assets/images/ingredients/sandwiches.jpg";
+import cereals from "../../assets/images/ingredients/cereals.jpg";
 import { cards } from "./useIngredients";
 
 function FirstIngredients() {
@@ -9,10 +9,10 @@ function FirstIngredients() {
     <div>
       <div className="relative">
         <p className="absolute bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
-          Sandwiches
+          Starch & Cereal Dishes
         </p>
 
-        <img src={sandwiches} className="w-full" alt="" />
+        <img src={cereals} className="w-full h-96 object-cover" alt="" />
       </div>
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (

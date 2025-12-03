@@ -11,7 +11,11 @@ function FirstIngredients() {
           Vegetable Dishes
         </p>
 
-        <img src={vegetabledishes} className="w-full" alt="" />
+        <img
+          src={vegetabledishes}
+          className="w-full h-96 object-cover"
+          alt=""
+        />
       </div>
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (

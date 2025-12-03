@@ -13,7 +13,7 @@ function FirstIngredients() {
           Salads & Dressings
         </p>
 
-        <img src={salad_dressing} className="w-full" alt="" />
+        <img src={salad_dressing}  className="w-full h-96 object-cover" alt="" />
       </div>
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (
