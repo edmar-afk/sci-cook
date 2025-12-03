@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="bg-gradient-to-br from-pink-900 via-purple-900 to-pink-800 text-white min-h-screen flex flex-col">
@@ -45,9 +46,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="w-fit p-4 rounded-full mx-auto md:mx-0 bg-pink-600 border-2 border-dashed cursor-pointer hover:scale-110 duration-300">
+              <Link to={'/contents'} className="w-fit p-4 rounded-full mx-auto md:mx-0 bg-pink-600 border-2 border-dashed cursor-pointer hover:scale-110 duration-300">
                 <ArrowForwardIcon />
-              </div>
+              </Link>
             </div>
 
             <div className="order-1 md:order-2">
