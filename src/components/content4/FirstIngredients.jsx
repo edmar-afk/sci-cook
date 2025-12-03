@@ -1,11 +1,12 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
-import vegetabledishes from "../../assets/images/ingredients/vegetabledishes.png";
+import salad_dressing from "../../assets/images/ingredients/salad_dressing.jpg";
 import { cards } from "./useIngredients";
 
 function FirstIngredients() {
 return ( <div> <p className="font-bold text-2xl text-center lg:text-left py-8 px-4">
-Vegetable Dishes </p> <img src={vegetabledishes} className="w-full" alt="" />
+Vegetable Dishes </p> <img src={salad_dressing} className="w-full" alt="" />
 
 
   <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
