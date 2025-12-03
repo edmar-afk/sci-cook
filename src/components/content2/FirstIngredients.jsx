@@ -6,11 +6,13 @@ import { cards } from "./useIngredients";
 function FirstIngredients() {
   return (
     <div>
-      {" "}
-      <p className="font-bold text-2xl text-center lg:text-left py-8 px-4">
-        Egg Dishes{" "}
-      </p>{" "}
-      <img src={eggdishes} alt="" />
+      <div className="relative">
+        <p className="absolute bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
+          Egg Dishes
+        </p>
+
+        <img src={eggdishes} className="w-full" alt="" />
+      </div>
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (
           <motion.div

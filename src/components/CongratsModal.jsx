@@ -15,6 +15,10 @@ function CongratsModal({ open, handleClose }) {
       navigate("/content3");
     } else if (location.pathname === "/content3") {
       navigate("/content4");
+    } else if (location.pathname === "/content4") {
+      navigate("/content5");
+    } else if (location.pathname === "/content5") {
+      navigate("/content6");
     }
     window.scrollTo(0, 0);
     handleClose();
