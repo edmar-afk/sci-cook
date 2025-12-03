@@ -1,12 +1,13 @@
 import carrot from "../../assets/images/ingredients/carrot.png";
-import salt from "../../assets/images/ingredients/salt.jpg";
-import pepper from "../../assets/images/ingredients/pepper.jpg";
-import oil from "../../assets/images/ingredients/oil.jpg";
+import cabbage from "../../assets/images/ingredients/cabbage.jpg";
+import pechay from "../../assets/images/ingredients/pechay.jpg";
+import oniongarlictomato from "../../assets/images/ingredients/oniongarlictomato.jpg";
 import milk from "../../assets/images/ingredients/milk.jpg";
-import onion from "../../assets/images/ingredients/onion.jpg";
-import cheese from "../../assets/images/ingredients/cheese.jpg";
-import tomato from "../../assets/images/ingredients/tomato.png";
-
+import oilpeppersalt from "../../assets/images/ingredients/oilpeppersalt.jpg";
+import sitaw from "../../assets/images/ingredients/sitaw.jpg";
+import soysouce from "../../assets/images/ingredients/soysouce.jpg";
+import water from "../../assets/images/ingredients/water.jpg";
+import coulibroccoli from "../../assets/images/ingredients/coulibroccoli.jpg";
 export const cards = [
   {
     title: "Carrot ",
@@ -18,19 +19,19 @@ export const cards = [
     title: "Cabbage ",
     subtitle: "Brassica oleracea var. capitata",
     desc: "Leafy vegetable rich in fiber and vitamins.",
-    img: salt,
+    img: cabbage,
   },
   {
     title: "Pechay/Bok Choy",
     subtitle: "Brassica rapa subsp. Chinensis",
     desc: "Leafy green high in vitamins.",
-    img: pepper,
+    img: pechay,
   },
   {
     title: "Onion, Garlic, Tomato",
     subtitle: "Allium cepa, Allium sativum, Solanum lycopersicum",
     desc: "Aromatics for flavor.",
-    img: oil,
+    img: oniongarlictomato,
   },
   {
     title: "Milk ",
@@ -42,30 +43,30 @@ export const cards = [
     title: "Cooking oil, Salt, Pepper ",
     subtitle: "Various, Sodium chloride, Piper nigrum",
     desc: "Seasoning",
-    img: onion,
+    img: oilpeppersalt,
   },
   {
     title: "Cauliflower, Broccoli",
     subtitle: "Brassica oleracea var. botrytis, Brassica oleracea var. italica",
     desc: "White flowering vegetable, high in fiber and vitamin C;",
-    img: tomato,
+    img: coulibroccoli,
   },
   {
     title: "Bell pepper, Sitaw/String beans",
     subtitle: "Capsicum annuum, Vigna unguiculata subsp. Sesquipedalis",
     desc: "Vegetables for stir-fry.",
-    img: cheese,
+    img: sitaw,
   },
    {
     title: "Soy sauce",
     subtitle: "Glycine max",
     desc: "Oyster sauce: Flavor enhancers.",
-    img: cheese,
+    img: soysouce,
   },
    {
     title: "Water",
     subtitle: "H2O",
     desc: "Cooking medium.",
-    img: cheese,
+    img: water,
   },
 ];

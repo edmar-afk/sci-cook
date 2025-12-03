@@ -34,19 +34,17 @@ function FirstIngredients() {
       </div>
 
       <p className="px-8 mt-8">
-        These ingredients form the essential building blocks of many egg-based
-        dishes. <b>Eggs</b> serve as the main protein source, while seasonings
-        like <b>salt</b> and <b>pepper</b> enhance flavor. Cooking{" "}
-        <b>oil or butter</b> provides the necessary fat for frying and adds
-        richness. <b>Milk</b> contributes creaminess and improves texture,
-        especially in scrambled eggs and omelets. <br /> <br />
-        Aromatics like <b>onion</b> bring depth of flavor, while <b>tomato</b>{" "}
-        adds acidity, color, and freshness. <b>Cheese</b> introduces creaminess
-        and a savory, melty texture that complements eggs perfectly. Together,
-        these ingredients create a balanced combination of protein, flavor,
-        aroma, richness, and texture, making them the core components for a wide
-        variety of egg dishes—from simple fried eggs to flavorful omelets,
-        scrambles, and breakfast skillets.
+        This recipe features a variety of nutritious and flavorful ingredients.{" "}
+        <b>Carrot</b> is a sweet, crunchy root vegetable rich in beta-carotene,
+        while <b>Cabbage</b> provides fiber and essential vitamins.{" "}
+        <b>Pechay/Bok Choy</b> adds leafy greens high in vitamins, complemented
+        by aromatic <b>Onion, Garlic, Tomato</b> for depth of flavor.{" "}
+        <b>Milk</b> contributes creaminess and nutrients, and{" "}
+        <b>Cooking oil, Salt, Pepper</b> serve as essential seasonings. The
+        combination of <b>Cauliflower, Broccoli</b> brings fiber and vitamin C,
+        while <b>Bell pepper, Sitaw/String beans</b> enhance stir-fry dishes.{" "}
+        <b>Soy sauce</b> adds savory flavor, and <b>Water</b> acts as the
+        cooking medium, bringing all elements together harmoniously.
       </p>
     </div>
   );
