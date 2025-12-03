@@ -48,13 +48,15 @@ function FirstIngredients() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        This set of ingredients creates a classic, flavorful sandwich
-        combination. <b>Bread</b> serves as the essential base, while{" "}
-        <b>Butter / Margarine</b> adds a smooth, rich spread. Savory layers come
-        from <b>Cheese</b> and the protein-packed <b>Ham / Luncheon meat</b>.
-        Freshness and crunch are provided by <b>Lettuce, Tomato</b>, and
-        everything is tied together with the creamy and seasoned blend of{" "}
-        <b>Mayonnaise & Egg, Salt, Pepper</b>, enhancing both texture and taste.
+        This collection of ingredients highlights key components for hearty
+        starch and cereal-based dishes. <b>Rice</b> provides a versatile staple
+        carbohydrate, while <b>Potato</b> offers a soft, starchy base perfect
+        for comfort meals. Richness comes from <b>Butter, Milk</b>,
+        complementing the natural sweetness and aroma of{" "}
+        <b>Carrot, Peas, Onion, Garlic</b>, which add color and flavor.
+        Essential seasonings like <b>Cooking oil, Soy sauce, Salt, Pepper</b>{" "}
+        enhance the overall taste, and <b>Pasta, Tomato, Sugar</b> contributes a
+        classic combination used in many cereal and noodle dishes.
       </motion.p>
     </div>
   );

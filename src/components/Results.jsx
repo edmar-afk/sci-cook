@@ -2,7 +2,7 @@ import React from "react";
 import Confetti from "react-confetti";
 import { useLocation, useNavigate } from "react-router-dom";
 
-function CongratsModal({ open, handleClose }) {
+function Results({ open, handleClose }) {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -21,8 +21,6 @@ function CongratsModal({ open, handleClose }) {
       navigate("/content6");
     } else if (location.pathname === "/content6") {
       navigate("/content7");
-    } else if (location.pathname === "/content7") {
-      navigate("/exercise");
     }
     window.scrollTo(0, 0);
     handleClose();
@@ -50,4 +48,4 @@ function CongratsModal({ open, handleClose }) {
   );
 }
 
-export default CongratsModal;
+export default Results;

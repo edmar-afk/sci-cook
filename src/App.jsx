@@ -8,6 +8,8 @@ import ScrollToTop from "./ScrollToTop";
 import Content5 from "./routes/Content5";
 import Content6 from "./routes/Content6";
 import Content7 from "./routes/Content7";
+import InteractiveExercise from "./routes/InteractiveExercise";
+import Quiz from "./routes/Quiz";
 
 function Logout() {
   localStorage.clear();
@@ -27,6 +29,8 @@ function App() {
         <Route path="/content5" element={<Content5 />} />
         <Route path="/content6" element={<Content6 />} />
         <Route path="/content7" element={<Content7 />} />
+        <Route path="/exercise" element={<InteractiveExercise />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </BrowserRouter>
   );

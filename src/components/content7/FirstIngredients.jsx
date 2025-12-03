@@ -48,13 +48,13 @@ function FirstIngredients() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        This set of ingredients creates a classic, flavorful sandwich
-        combination. <b>Bread</b> serves as the essential base, while{" "}
-        <b>Butter / Margarine</b> adds a smooth, rich spread. Savory layers come
-        from <b>Cheese</b> and the protein-packed <b>Ham / Luncheon meat</b>.
-        Freshness and crunch are provided by <b>Lettuce, Tomato</b>, and
-        everything is tied together with the creamy and seasoned blend of{" "}
-        <b>Mayonnaise & Egg, Salt, Pepper</b>, enhancing both texture and taste.
+        These ingredients come together to create sweet and refreshing dessert
+        dishes. <b>Gelatin powder</b> acts as the key gelling agent, while{" "}
+        <b>Water</b> serves as the base for dissolving and mixing. <b>Sugar</b>{" "}
+        adds the essential sweetness, complemented by the natural flavors and
+        nutrients of assorted <b>Fruits</b>. To enrich the texture and
+        creaminess, <b>Condensed milk, All-purpose cream</b> provide a smooth,
+        indulgent finish that ties the dessert together.
       </motion.p>
     </div>
   );
