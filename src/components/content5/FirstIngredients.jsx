@@ -8,7 +8,7 @@ function FirstIngredients() {
   return (
     <div>
       <div className="relative">
-        <p className="absolute bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
+        <p className="absolute lobster bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
           Sandwiches
         </p>
 
