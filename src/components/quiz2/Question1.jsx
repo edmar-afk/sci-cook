@@ -4,8 +4,9 @@ import imagequiz from "../../assets/images/quiz2.png";
 function Question1() {
   return (
     <div className="mb-24">
-      <p className="mb-8 text-lg text-left">
-        Give the scientific names of the recipe’s ingredient
+      <p className="mt-24 mb-3 text-lg text-center">
+        Give the ingredients of this recipe with its scientific name and explain
+        the use briefly.
       </p>
       <div className="flex flex-col items-center">
         <img src={imagequiz} alt="" className="mx-auto" />
@@ -13,7 +14,6 @@ function Question1() {
           Buttered Garlic Egg
         </p>
       </div>
-      <p className="mt-8 text-lg text-left">Your Answer:</p>
     </div>
   );
 }
