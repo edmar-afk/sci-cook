@@ -5,6 +5,12 @@ import desserts from "../../assets/images/ingredients/desserts.jpg";
 import { cards } from "./useIngredients";
 
 function FirstIngredients() {
+  const speakText = (text) => {
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "en-US";
+    window.speechSynthesis.speak(utter);
+  };
+
   return (
     <div>
       <div className="relative">
@@ -14,6 +20,7 @@ function FirstIngredients() {
 
         <img src={desserts} className="w-full h-96 object-cover" alt="" />
       </div>
+
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">
         {cards.map((item, index) => (
           <motion.div
@@ -28,19 +35,26 @@ function FirstIngredients() {
               <div className="md:shrink-0">
                 <img className="h-48 w-full object-cover" src={item.img} />
               </div>
+
               <div className="p-8 min-h-[205px] flex flex-col">
                 <div className="uppercase tracking-wide text-sm text-pink-500 font-semibold">
                   {item.title}
                 </div>
-                <a className="block mt-1 text-lg leading-tight font-bold text-black hover:underline">
-                  {item.subtitle}
-                </a>
+
+                <button
+                  onClick={() => speakText(item.subtitle)}
+                  className="block mt-1 text-lg leading-tight font-bold text-black hover:underline text-left"
+                >
+                  <i className="italic cursor-pointer">{item.subtitle}</i>
+                </button>
+
                 <p className="mt-2 text-slate-500">{item.desc}</p>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
+
       <motion.p
         className="px-8 mt-8"
         initial={{ opacity: 0, y: 30 }}

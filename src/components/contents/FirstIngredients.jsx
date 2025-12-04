@@ -7,7 +7,6 @@ import tomato from "../../assets/images/ingredients/tomato.png";
 import eggIcon from "../../assets/images/icons/egg.png";
 import carrotIcon from "../../assets/images/icons/carrot.png";
 import tomatoIcon from "../../assets/images/icons/tomato.png";
-import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 
 export default function FirstIngredients() {
   const images = [
@@ -34,12 +33,14 @@ export default function FirstIngredients() {
     },
   ];
 
-  const speakScientificName = (title) => {
-    const match = title.match(/\(([^)]+)\)/);
-    if (!match) return;
-    const sciName = match[1];
+  const extractNames = (title) => {
+    const match = title.match(/(.+?)\s*\(([^)]+)\)/);
+    if (!match) return { common: title, scientific: "" };
+    return { common: match[1], scientific: match[2] };
+  };
 
-    const utter = new SpeechSynthesisUtterance(sciName);
+  const speakScientificName = (name) => {
+    const utter = new SpeechSynthesisUtterance(name);
     utter.lang = "en-US";
     window.speechSynthesis.speak(utter);
   };
@@ -76,6 +77,8 @@ export default function FirstIngredients() {
 
       <div className="flex flex-col items-start flex-wrap justify-start mt-8">
         {cardsData.map((card, index) => {
+          const { common, scientific } = extractNames(card.title);
+
           const initialAnimation =
             index % 2 === 0
               ? { x: -100, opacity: 0, scale: 1 }
@@ -101,20 +104,24 @@ export default function FirstIngredients() {
                   <div className="flex-shrink-0">
                     <img src={card.icon} className="w-12" alt="" />
                   </div>
-                  <div className="ml-3">
-                    <div className="text-sm text-pink-600">
-                      <p className="font-bold text-lg flex items-center gap-2">
-                        {card.title}
-                        <RecordVoiceOverIcon
-                          fontSize="small"
-                          className="text-blue-600 cursor-pointer"
-                          onClick={() => speakScientificName(card.title)}
-                        />
-                      </p>
-                      <p className="text-pink-500 mt-2">
-                        <b>Description:</b> {card.desc}
-                      </p>
-                    </div>
+
+                  <div className="ml-3 text-sm text-pink-600">
+                    <p className="font-bold text-lg flex flex-col">
+                      <span>{common}</span>
+
+                      {scientific && (
+                        <span
+                          className="italic text-pink-500 cursor-pointer text-md"
+                          onClick={() => speakScientificName(scientific)}
+                        >
+                          ({scientific})
+                        </span>
+                      )}
+                    </p>
+
+                    <p className="text-pink-500 mt-2">
+                      <b>Description:</b> {card.desc}
+                    </p>
                   </div>
                 </div>
               </div>
