@@ -13,6 +13,7 @@ import Quiz from "./routes/Quiz";
 import Key from "./routes/Key";
 import Reference from "./routes/Reference";
 import Reflection from "./routes/Reflection";
+import Quiz2 from "./routes/Quiz2";
 
 function Logout() {
   localStorage.clear();
@@ -34,6 +35,7 @@ function App() {
         <Route path="/content7" element={<Content7 />} />
         <Route path="/exercise" element={<InteractiveExercise />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/quiz2" element={<Quiz2 />} />
         <Route path="/key" element={<Key />} />
         <Route path="/reference" element={<Reference />} />
         <Route path="/reflection" element={<Reflection />} />

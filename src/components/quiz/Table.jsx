@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Confetti from "react-confetti";
-
+import { Link } from "react-router-dom";
 const data = [
   { common: "Potato", scientific: "Solanum tuberosum" },
   { common: "Rice", scientific: "Oryza sativa" },
@@ -126,14 +126,26 @@ export default function Table() {
                 Score: {score} / {data.length}
               </p>
               <p className="mt-1">{remarks}</p>
-              {score !== data.length && (
-                <button
-                  onClick={handleTryAgain}
-                  className="cursor-pointer hover:scale-110 duration-300 mt-4 inline-flex items-center gap-2 rounded-full px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium shadow-sm"
-                >
-                  Try Again
-                </button>
-              )}
+              <div className="flex flex-row items-center justify-center gap-4">
+                {" "}
+                {score !== data.length && (
+                  <button
+                    onClick={handleTryAgain}
+                    className="cursor-pointer hover:scale-110 duration-300 mt-4 inline-flex items-center gap-2 rounded-full px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium shadow-sm"
+                  >
+                    Try Again
+                  </button>
+                )}
+                {/* ⭐ NEXT BUTTON ADDED HERE ⭐ */}
+                <div className="mt-4">
+                  <Link
+                    to="/quiz2"
+                    className="cursor-pointer hover:scale-110 duration-300 inline-flex items-center gap-2 rounded-full px-6 py-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium shadow-sm"
+                  >
+                    Next →
+                  </Link>
+                </div>
+              </div>
             </div>
           )}
           <div className="mt-4 flex justify-end">
@@ -153,7 +165,6 @@ export default function Table() {
             width={window.innerWidth}
             height={window.innerHeight}
             numberOfPieces={500}
-            
           />
         </div>
       )}
