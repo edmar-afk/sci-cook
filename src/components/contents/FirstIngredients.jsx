@@ -7,6 +7,7 @@ import tomato from "../../assets/images/ingredients/tomato.png";
 import eggIcon from "../../assets/images/icons/egg.png";
 import carrotIcon from "../../assets/images/icons/carrot.png";
 import tomatoIcon from "../../assets/images/icons/tomato.png";
+import RecordVoiceOverIcon from "@mui/icons-material/RecordVoiceOver";
 
 export default function FirstIngredients() {
   const images = [
@@ -33,6 +34,16 @@ export default function FirstIngredients() {
     },
   ];
 
+  const speakScientificName = (title) => {
+    const match = title.match(/\(([^)]+)\)/);
+    if (!match) return;
+    const sciName = match[1];
+
+    const utter = new SpeechSynthesisUtterance(sciName);
+    utter.lang = "en-US";
+    window.speechSynthesis.speak(utter);
+  };
+
   return (
     <>
       <motion.div
@@ -42,12 +53,9 @@ export default function FirstIngredients() {
         viewport={{ once: false, amount: 0.3 }}
         className="px-4"
       >
-        {" "}
-        <p className="font-bold text-2xl">
-          Can you name these ingredients?
-        </p>{" "}
+        <p className="font-bold text-2xl">Can you name these ingredients?</p>
         <p className="font-thin text-md">
-          Have you used them before in cooking?{" "}
+          Have you used them before in cooking?
         </p>
       </motion.div>
 
@@ -95,7 +103,14 @@ export default function FirstIngredients() {
                   </div>
                   <div className="ml-3">
                     <div className="text-sm text-pink-600">
-                      <p className="font-bold text-lg">{card.title}</p>
+                      <p className="font-bold text-lg flex items-center gap-2">
+                        {card.title}
+                        <RecordVoiceOverIcon
+                          fontSize="small"
+                          className="text-blue-600 cursor-pointer"
+                          onClick={() => speakScientificName(card.title)}
+                        />
+                      </p>
                       <p className="text-pink-500 mt-2">
                         <b>Description:</b> {card.desc}
                       </p>
