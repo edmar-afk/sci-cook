@@ -1,7 +1,10 @@
 import React from "react";
 import { Modal, Box, Typography } from "@mui/material";
 
-function Reference({ open, onClose }) {
+export default function Reference({ open, onClose }) {
+  const fileId = "1qc5-AcxFlkLk1I2prFq8Ra70E4YIy2PV";
+  const viewerUrl = `https://docs.google.com/document/d/${fileId}/preview`;
+
   return (
     <Modal open={open} onClose={onClose}>
       <Box
@@ -10,21 +13,28 @@ function Reference({ open, onClose }) {
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          width: 400,
+          width: "80vw",
+          height: "80vh",
           bgcolor: "background.paper",
           borderRadius: 2,
           boxShadow: 24,
-          p: 4,
+          p: 2,
         }}
       >
         <Typography variant="h6" mb={2}>
           Key Takeaways and Reference
         </Typography>
 
-        <Typography>Your reference content here...</Typography>
+        <iframe
+          title="Google Doc Viewer"
+          src={viewerUrl}
+          style={{
+            width: "100%",
+            height: "100%",
+            border: "none",
+          }}
+        ></iframe>
       </Box>
     </Modal>
   );
 }
-
-export default Reference;
