@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { motion } from "framer-motion";
-import salad_dressing from "../../assets/images/ingredients/salad_dressing.jpg";
 import { cards } from "./useIngredients";
+import ReactPlayer from "react-player";
 
 function FirstIngredients() {
   const speakText = (text) => {
@@ -14,11 +14,20 @@ function FirstIngredients() {
   return (
     <div>
       <div className="relative">
-        <p className="absolute lobster bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
+        <p className="z-50 absolute lobster bottom-8 left-7 bg-gradient-to-r from-pink-700/100 to-pink-500/70 font-bold text-2xl py-6 px-14 text-white">
           Salads & Dressings
         </p>
 
-        <img src={salad_dressing} className="w-full h-96 object-cover" alt="" />
+        <div className="w-full h-[35rem] overflow-hidden rounded-xl relative">
+          <ReactPlayer
+            className="absolute top-0 left-0"
+            src="https://www.youtube.com/watch?v=wSnDpxMRf48"
+            controls
+            width="100%"
+            height="100%"
+            playing={true}
+          />
+        </div>
       </div>
 
       <div className="px-4 mt-8 flex flex-row items-center justify-evenly gap-4 flex-wrap">

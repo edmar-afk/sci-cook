@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import sandwiches from "../../assets/images/ingredients/sandwiches.jpg";
 import { cards } from "./useIngredients";
+import ReactPlayer from "react-player";
 
 function FirstIngredients() {
   const speakText = (text) => {
