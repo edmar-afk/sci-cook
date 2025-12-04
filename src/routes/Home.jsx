@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/logo.png";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Link } from "react-router-dom";
+import Reference from "./Reference";
+import Reflection from "./Reflection";
+
 export default function Home() {
+  const [openReference, setOpenReference] = useState(false);
+  const [openReflection, setOpenReflection] = useState(false);
+
   return (
     <div className="bg-gradient-to-br from-pink-900 via-purple-900 to-pink-800 text-white min-h-screen flex flex-col">
       <main className="flex-grow flex items-center relative overflow-hidden">
@@ -30,23 +36,27 @@ export default function Home() {
               </p>
 
               <div className="flex flex-row items-stretch gap-3 md:mx-0 mb-10 w-full">
-                <div className="flex-1 bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center flex flex-col justify-center h-28 md:h-36">
-                  <div className="text-3xl md:text-4xl font-bold">15</div>
-                  <div className="text-pink-300 text-sm">Recipes</div>
-                </div>
-
-                <div className="flex-1 bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center flex flex-col justify-center h-28 md:h-36">
-                  <div className="text-3xl md:text-4xl font-bold">276</div>
-                  <div className="text-pink-300 text-sm">Ingredients</div>
-                </div>
-
-                <div className="flex-1 bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center flex flex-col justify-center h-28 md:h-36">
-                  <div className="text-lg md:text-4xl font-bold">Brand New</div>
-                  <div className="text-pink-300 text-sm">Learnings</div>
+                <div className="flex flex-row mx-auto lg:mx-0 items-center flex-wrap gap-4">
+                  <p
+                    onClick={() => setOpenReflection(true)}
+                    className="text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
+                  >
+                    Reflection
+                  </p>
+                  |
+                  <p
+                    onClick={() => setOpenReference(true)}
+                    className="text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
+                  >
+                    Key Takeaways and Reference
+                  </p>
                 </div>
               </div>
 
-              <Link to={'/contents'} className="w-fit p-4 rounded-full mx-auto md:mx-0 bg-pink-600 border-2 border-dashed cursor-pointer hover:scale-110 duration-300">
+              <Link
+                to={"/contents"}
+                className="w-fit p-4 rounded-full mx-auto md:mx-0 bg-pink-600 border-2 border-dashed cursor-pointer hover:scale-110 duration-300"
+              >
                 <ArrowForwardIcon />
               </Link>
             </div>
@@ -66,10 +76,16 @@ export default function Home() {
       </main>
 
       <footer className="container mx-auto px-4 py-6 border-t border-white/10">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-row justify-evenly items-center flex-wrap gap-3">
           <div className="text-sm text-pink-300">Thesis Project of 2025</div>
         </div>
       </footer>
+
+      <Reference open={openReference} onClose={() => setOpenReference(false)} />
+      <Reflection
+        open={openReflection}
+        onClose={() => setOpenReflection(false)}
+      />
     </div>
   );
 }

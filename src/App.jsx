@@ -10,6 +10,9 @@ import Content6 from "./routes/Content6";
 import Content7 from "./routes/Content7";
 import InteractiveExercise from "./routes/InteractiveExercise";
 import Quiz from "./routes/Quiz";
+import Key from "./routes/Key";
+import Reference from "./routes/Reference";
+import Reflection from "./routes/Reflection";
 
 function Logout() {
   localStorage.clear();
@@ -31,6 +34,9 @@ function App() {
         <Route path="/content7" element={<Content7 />} />
         <Route path="/exercise" element={<InteractiveExercise />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/key" element={<Key />} />
+        <Route path="/reference" element={<Reference />} />
+        <Route path="/reflection" element={<Reflection />} />
       </Routes>
     </BrowserRouter>
   );

@@ -57,6 +57,7 @@ function Contents() {
         open={isCongratsOpen}
         handleClose={() => setIsCongratsOpen(false)}
       />
+      
     </div>
   );
 }
