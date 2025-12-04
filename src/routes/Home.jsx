@@ -4,10 +4,12 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Link } from "react-router-dom";
 import Reference from "./Reference";
 import Reflection from "./Reflection";
+import Key from "./Key";
 
 export default function Home() {
   const [openReference, setOpenReference] = useState(false);
   const [openReflection, setOpenReflection] = useState(false);
+  const [openKeys, setOpenKeys] = useState(false);
 
   return (
     <div className="bg-gradient-to-br from-pink-900 via-purple-900 to-pink-800 text-white min-h-screen flex flex-col">
@@ -39,16 +41,23 @@ export default function Home() {
                 <div className="flex flex-row mx-auto lg:mx-0 items-center flex-wrap gap-4">
                   <p
                     onClick={() => setOpenReflection(true)}
-                    className="text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
+                    className="uppercase text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
                   >
                     Reflection
                   </p>
                   |
                   <p
-                    onClick={() => setOpenReference(true)}
-                    className="text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
+                    onClick={() => setOpenKeys(true)}
+                    className="uppercase text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
                   >
-                    Key Takeaways and Reference
+                    Key Takeaways
+                  </p>
+                  |
+                  <p
+                    onClick={() => setOpenReference(true)}
+                    className="uppercase text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"
+                  >
+                    Reference
                   </p>
                 </div>
               </div>
@@ -82,6 +91,7 @@ export default function Home() {
       </footer>
 
       <Reference open={openReference} onClose={() => setOpenReference(false)} />
+      <Key open={openKeys} onClose={() => setOpenKeys(false)} />
       <Reflection
         open={openReflection}
         onClose={() => setOpenReflection(false)}

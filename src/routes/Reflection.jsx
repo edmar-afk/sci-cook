@@ -21,7 +21,7 @@ function Reflection({ open, onClose }) {
         }}
       >
         <p className="font-bold mb-8 text-xl">
-          Reflection
+          REFLECTION
         </p>
 
         {/* Scrollable content */}

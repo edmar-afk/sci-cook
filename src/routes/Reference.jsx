@@ -22,7 +22,7 @@ export default function Reference({ open, onClose }) {
         }}
       >
         <Typography variant="h6" mb={2}>
-          Key Takeaways and Reference
+          REFERENCE
         </Typography>
 
         <iframe

@@ -7,7 +7,7 @@ function Quiz() {
       <Header />
       <div className="mx-0 lg:mx-72 shadow-2xl pb-12">
         <div className="px-4 pt-2 lg:pt-14 ">
-          <p className="lobster text-4xl text-pink-600">
+          <p className="lobster text-4xl text-pink-600 uppercase">
             Interactive Practice{" "}
           </p>
          

@@ -10,7 +10,7 @@ function Introduction() {
         transition={{ duration: 0.7, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        <p className="font-bold text-2xl">Introduction</p>
+        <p className="font-bold text-2xl uppercase">Introduction</p>
         <p>
           Ingredients are the foundation of every dish, influencing flavor,
           texture, and nutritional value. In Grade 8 Cookery, students are
@@ -34,7 +34,7 @@ function Introduction() {
         transition={{ duration: 0.7, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        <p className="font-bold text-2xl">Learning Objective</p>
+        <p className="font-bold text-2xl uppercase">Learning Objective</p>
         <p>
           Identify and describe common ingredients used in Grade 8 Cookery
           recipes, including their scientific names, visual characteristics, and
