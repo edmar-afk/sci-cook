@@ -28,13 +28,13 @@ export const cards = [
   },
   {
     title: "Olive oil / Butter",
-    subtitle: "Olea europaea / Bos taurus (from cow)",
+    subtitle: "Olea europaea / Bos taurus (milk from cow)",
     desc: "Fats used for cooking and flavor.",
     img: oil,
   },
   {
     title: "Milk",
-    subtitle: "Bos taurus (from cow)",
+    subtitle: "Bos taurus (milk from cow)",
     desc: "Dairy product providing creaminess and nutrients.",
     img: milk,
   },
@@ -52,7 +52,7 @@ export const cards = [
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus (from cow)",
+    subtitle: "Bos taurus (milk from cow)",
     desc: "Dairy product for flavor and texture.",
     img: cheese,
   },
