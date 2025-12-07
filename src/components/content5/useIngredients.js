@@ -37,7 +37,7 @@ export const cards = [
   },
   {
     title: "Mayonnaise & Egg, Salt, Pepper ",
-    subtitle: "Various, Gallus gallus domesticus, Sodium chloride, Piper nigrum",
+    subtitle: "Mayonnaise, Gallus gallus domesticus, Sodium chloride, Piper nigrum",
     desc: "Condiments and seasoning.",
     img: mayoeggsaltpepper,
   },

@@ -19,7 +19,7 @@ export const cards = [
   },
   {
     title: "Mayonnaise",
-    subtitle: "Various",
+    subtitle: "Mayonnaise",
     desc: "Creamy condiment.",
     img: mayonaise,
   },
