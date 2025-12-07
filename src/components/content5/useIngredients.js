@@ -13,19 +13,19 @@ export const cards = [
   },
   {
     title: "Butter / Margarine",
-    subtitle: "Bos taurus",
+    subtitle: "Bos taurus(milk from cow)",
     desc: "Spread.",
     img: buttermargarine,
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus",
+    subtitle: "Bos taurus(milk from cow)",
     desc: "Filling.",
     img: cheese,
   },
   {
     title: "Ham / Luncheon meat",
-    subtitle: "Sus scrofa domesticus",
+    subtitle: "Sus scrofa domesticus(from Pig)",
     desc: "Protein filling.",
     img: ham,
   },

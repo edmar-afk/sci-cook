@@ -38,7 +38,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-row items-stretch gap-3 md:mx-0 mb-10 w-full">
-                <div className="flex flex-row mx-auto lg:mx-0 items-center flex-wrap gap-4">
+                <div className="flex flex-row mx-auto lg:mx-0 items-center justify-center lg:justify-start flex-wrap gap-4">
                   <p
                     onClick={() => setOpenReflection(true)}
                     className="uppercase text-sm lg:text-lg font-semibold cursor-pointer text-pink-300 hover:text-white duration-300 hover:underline"

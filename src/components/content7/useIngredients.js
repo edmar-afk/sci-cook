@@ -6,7 +6,7 @@ import condensed from "../../assets/images/ingredients/condensed.jpg";
 export const cards = [
   {
     title: "Gelatin powder",
-    subtitle: "from Bos taurus or Sus scrofa collagen",
+    subtitle: "from Bos taurus(milk from cow) or Sus scrofa(from pig) collagen",
     desc: "Gelling agent.",
     img: gelatinpowder,
   },
@@ -30,7 +30,7 @@ export const cards = [
   },
   {
     title: "Condensed milk, All-purpose cream",
-    subtitle: "Bos taurus",
+    subtitle: "Bos taurus(milk from cow)",
     desc: "Dairy products for sweetness and texture.",
     img: condensed,
   },

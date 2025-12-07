@@ -25,7 +25,7 @@ export const cards = [
   },
   {
     title: "Vinegar",
-    subtitle: "Various",
+    subtitle: "Acetic acid",
     desc: "Acidic seasoning.",
     img: vinegar,
   },
