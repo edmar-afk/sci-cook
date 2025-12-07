@@ -35,7 +35,7 @@ export const cards = [
   },
   {
     title: "Milk ",
-    subtitle: "Bos taurus(milk from cow)",
+    subtitle: "Bos taurus(from cow)",
     desc: "Dairy product providing creaminess and nutrients.",
     img: milk,
   },

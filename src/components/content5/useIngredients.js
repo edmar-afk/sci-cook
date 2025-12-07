@@ -13,13 +13,13 @@ export const cards = [
   },
   {
     title: "Butter / Margarine",
-    subtitle: "Bos taurus(milk from cow)",
+    subtitle: "Bos taurus(from cow)",
     desc: "Spread.",
     img: buttermargarine,
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus(milk from cow)",
+    subtitle: "Bos taurus(from cow)",
     desc: "Filling.",
     img: cheese,
   },
