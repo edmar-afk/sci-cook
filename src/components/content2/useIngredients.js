@@ -27,19 +27,19 @@ export const cards = [
     img: pepper,
   },
   {
-    title: "Cooking oil / Butter",
-    subtitle: "various",
+    title: "Olive oil / Butter",
+    subtitle: "Olea europaea / Bos taurus (milk from cow)",
     desc: "Fats used for cooking and flavor.",
     img: oil,
   },
   {
-    title: "Milk ",
+    title: "Milk",
     subtitle: "Bos taurus (milk from cow)",
     desc: "Dairy product providing creaminess and nutrients.",
     img: milk,
   },
   {
-    title: "Onion ",
+    title: "Onion",
     subtitle: "Allium cepa",
     desc: "Aromatic vegetable for flavor.",
     img: onion,
@@ -52,7 +52,7 @@ export const cards = [
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus",
+    subtitle: "Bos taurus (milk from cow)",
     desc: "Dairy product for flavor and texture.",
     img: cheese,
   },

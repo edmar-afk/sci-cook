@@ -40,8 +40,8 @@ export const cards = [
     img: milk,
   },
   {
-    title: "Cooking oil, Salt, Pepper ",
-    subtitle: "Various, Sodium chloride, Piper nigrum",
+    title: "Olive oil, Salt, Pepper ",
+    subtitle: "Olea europaea, Sodium chloride, Piper nigrum",
     desc: "Seasoning",
     img: oilpeppersalt,
   },

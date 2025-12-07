@@ -30,8 +30,8 @@ export const cards = [
     img: carrotpeaseoniongarlic,
   },
   {
-    title: "Cooking oil, Soy sauce, Salt, Pepper",
-    subtitle: "Various, Glycine max, Sodium chloride, Piper nigrum",
+    title: "Olive oil, Soy sauce, Salt, Pepper",
+    subtitle: "Olea europaea, Glycine max, Sodium chloride, Piper nigrum",
     desc: "Seasoning.",
     img: oilsoysaltpepper,
   },

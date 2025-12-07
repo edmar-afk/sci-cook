@@ -30,8 +30,8 @@ export const cards = [
     img: vinegar,
   },
   {
-    title: "Oil, Sugar, Salt, Pepper",
-    subtitle: "Various, (Saccharum officinarum), (Sodium chloride), (Piper nigrum)",
+    title: "Olive Oil, Sugar, Salt, Pepper",
+    subtitle: "Olea europaea, (Saccharum officinarum), (Sodium chloride), (Piper nigrum)",
     desc: "Dairy product providing creaminess and nutrients.",
     img: oilsugarsaltpepper,
   },
