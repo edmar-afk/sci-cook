@@ -45,7 +45,7 @@ export default function FirstIngredients() {
     utter.voice =
       voices.find((v) => v.lang === "en-US" && v.name.includes("Google")) ||
       voices[0];
-    utter.rate = 0.9;
+    utter.rate = 0.8;
     utter.lang = "en-US";
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utter);
