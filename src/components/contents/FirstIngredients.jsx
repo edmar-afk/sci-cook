@@ -41,7 +41,13 @@ export default function FirstIngredients() {
 
   const speakScientificName = (name) => {
     const utter = new SpeechSynthesisUtterance(name);
+    const voices = window.speechSynthesis.getVoices();
+    utter.voice =
+      voices.find((v) => v.lang === "en-US" && v.name.includes("Google")) ||
+      voices[0];
+    utter.rate = 0.9;
     utter.lang = "en-US";
+    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utter);
   };
 

@@ -8,7 +8,13 @@ import ReactPlayer from "react-player";
 function FirstIngredients() {
   const speakText = (text) => {
     const utter = new SpeechSynthesisUtterance(text);
+    const voices = window.speechSynthesis.getVoices();
+    utter.voice =
+      voices.find((v) => v.lang === "en-US" && v.name.includes("Google")) ||
+      voices[0];
+    utter.rate = 0.8;
     utter.lang = "en-US";
+    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utter);
   };
 
