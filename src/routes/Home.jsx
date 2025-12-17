@@ -34,7 +34,7 @@ export default function Home() {
 
               <p className="text-lg md:text-xl text-pink-200 mb-8 max-w-lg mx-auto md:mx-0 ">
                 Instructional Material Integrating Scientific Names and
-                Termiologies in Grade 8 Cookery
+                Termiologies in Grade 10 Cookery
               </p>
 
               <div className="flex flex-row items-stretch gap-3 md:mx-0 mb-10 w-full">
