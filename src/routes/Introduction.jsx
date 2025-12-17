@@ -13,7 +13,7 @@ function Introduction() {
         <p className="font-bold text-2xl uppercase">Introduction</p>
         <p>
           Ingredients are the foundation of every dish, influencing flavor,
-          texture, and nutritional value. In Grade 8 Cookery, students are
+          texture, and nutritional value. In Grade 10 Cookery, students are
           expected to identify and select ingredients for egg dishes, vegetable
           dishes, salads, sandwiches, starch dishes, and desserts. While the
           MELCs outline these competencies, they do not provide detailed content
@@ -36,7 +36,7 @@ function Introduction() {
       >
         <p className="font-bold text-2xl uppercase">Learning Objective</p>
         <p>
-          Identify and describe common ingredients used in Grade 8 Cookery
+          Identify and describe common ingredients used in Grade 10 Cookery
           recipes, including their scientific names, visual characteristics, and
           proper usage in preparing dishes.
         </p>
