@@ -5,7 +5,7 @@ import SadModal from "../components/SadModal";
 import CongratsModal from "../components/CongratsModal";
 import happinessIcon from "../assets/images/icons/happiness.png";
 import depressionIcon from "../assets/images/icons/depression.png";
-
+import { Link } from "react-router-dom";
 function Content4() {
   const [isSadModalOpen, setSadModalOpen] = useState(false);
   const [isCongratsOpen, setCongratsOpen] = useState(false);
@@ -24,24 +24,22 @@ function Content4() {
         <FirstIngredients />
 
         <div className="flex flex-col items-center justify-center mt-24">
-          <p>Have you learn anything so far?</p>
+          {/* <p>Have you learn anything so far?</p> */}
 
           <div className="mt-4 flex flex-row items-center gap-4">
-            <p
+            <Link
+              to={"/content5"}
               className="bg-green-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 cursor-pointer"
-              onClick={handleCongratsOpen}
             >
-              <img src={happinessIcon} className="w-6" />
-              Yes
-            </p>
+              Next
+            </Link>
 
-            <p
-              className="bg-red-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 cursor-pointer"
-              onClick={handleSadModalOpen}
+            <Link
+              to={"/content3"}
+              className="bg-gray-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 cursor-pointer"
             >
-              <img src={depressionIcon} className="w-6" />
-              No
-            </p>
+              Back
+            </Link>
           </div>
         </div>
       </div>

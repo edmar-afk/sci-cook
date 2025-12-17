@@ -8,6 +8,7 @@ import SadModal from "../components/SadModal";
 import CongratsModal from "../components/CongratsModal";
 import happinessIcon from "../assets/images/icons/happiness.png";
 import depressionIcon from "../assets/images/icons/depression.png";
+import { Link } from "react-router-dom";
 
 function Contents() {
   const [isSadModalOpen, setIsSadModalOpen] = useState(false);
@@ -31,24 +32,21 @@ function Contents() {
         </div>{" "}
         <div className="flex flex-col items-center justify-center mt-24">
           {" "}
-          <p>Have you learn anything so far?</p>{" "}
+          {/* <p>Have you learn anything so far?</p>{" "} */}
           <div className="mt-4 flex flex-row items-center gap-4">
             {" "}
-            <p
-              className="bg-green-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 justify-start cursor-pointer"
-              onClick={handleCongratsOpen}
-            >
+            <Link to={'/content2'} className="bg-green-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 justify-start cursor-pointer">
               {" "}
-              <img src={happinessIcon} className="w-6" alt="Happiness Icon" />
-              Yes{" "}
-            </p>
-            <p
+              {/* <img src={happinessIcon} className="w-6" alt="Happiness Icon" /> */}
+              Next
+            </Link>
+            {/* <p
               className="bg-red-600 text-white px-12 py-2 rounded-lg flex flex-row items-center gap-2 justify-start cursor-pointer"
               onClick={handleSadModalOpen}
             >
               <img src={depressionIcon} className="w-6" alt="Depression Icon" />
               No
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -57,7 +55,6 @@ function Contents() {
         open={isCongratsOpen}
         handleClose={() => setIsCongratsOpen(false)}
       />
-      
     </div>
   );
 }
