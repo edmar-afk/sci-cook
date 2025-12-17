@@ -34,7 +34,7 @@ function Reflection({ open, onClose }) {
         >
           <p>
            The development of QR code-based instructional materials
-            in Grade 8 Cookery integrates technology with practical culinary
+            in Grade 10 Cookery integrates technology with practical culinary
             learning. By linking ingredients and cooking terminologies to
             images, videos, audio pronunciations, and scientific names, students
             gain immediate access to rich, interactive content. This approach
