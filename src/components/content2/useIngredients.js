@@ -1,7 +1,8 @@
 import egg from "../../assets/images/ingredients/egg.png";
 import salt from "../../assets/images/ingredients/salt.jpg";
 import pepper from "../../assets/images/ingredients/pepper.jpg";
-import oil from "../../assets/images/ingredients/oil.jpg";
+import oil from "../../assets/images/ingredients/oil.png";
+import butter from "../../assets/images/ingredients/butter.png";
 import milk from "../../assets/images/ingredients/milk.jpg";
 import onion from "../../assets/images/ingredients/onion.jpg";
 import cheese from "../../assets/images/ingredients/cheese.jpg";
@@ -27,14 +28,20 @@ export const cards = [
     img: pepper,
   },
   {
-    title: "Olive oil / Butter",
-    subtitle: "Olea europaea / Bos taurus (milk from cow)",
-    desc: "Fats used for cooking and flavor.",
+    title: "Olive oil",
+    subtitle: "Olea europaea",
+    desc: "The olives are washed, crushed, and pressed to extract the oil.",
     img: oil,
   },
   {
+    title: "Butter",
+    subtitle: "Bos taurus (from cow)",
+    desc: "Dairy product for cooking and flavor.",
+    img: butter,
+  },
+  {
     title: "Milk",
-    subtitle: "Bos taurus (milk from cow)",
+    subtitle: "Bos taurus (from cow)",
     desc: "Dairy product providing creaminess and nutrients.",
     img: milk,
   },
@@ -52,7 +59,7 @@ export const cards = [
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus (milk from cow)",
+    subtitle: "Bos taurus (from cow)",
     desc: "Dairy product for flavor and texture.",
     img: cheese,
   },
