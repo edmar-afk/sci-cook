@@ -18,7 +18,7 @@ export const cards = [
   },
   {
     title: "Butter",
-    subtitle: "Bos taurus (milk from cow)",
+    subtitle: "Bos taurus (from cow)",
     desc: "Adds rich, creamy flavor.",
     img: butter,
   },
@@ -30,7 +30,7 @@ export const cards = [
   },
   {
     title: "Cheese",
-    subtitle: "Bos taurus(milk from cow)",
+    subtitle: "Bos taurus(from cow)",
     desc: "Filling.",
     img: cheese,
   },

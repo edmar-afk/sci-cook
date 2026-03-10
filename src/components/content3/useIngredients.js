@@ -10,7 +10,7 @@ import salt from "../../assets/images/ingredients/salt.png";
 import pepper from "../../assets/images/ingredients/pepper.png";
 import sitaw from "../../assets/images/ingredients/sitaw.jpg";
 import soysouce from "../../assets/images/ingredients/soysouce.jpg";
-import water from "../../assets/images/ingredients/water.jpg";
+// import water from "../../assets/images/ingredients/water.jpg";
 import coulibroccoli from "../../assets/images/ingredients/coulibroccoli.jpg";
 export const cards = [
   {
@@ -91,10 +91,10 @@ export const cards = [
     desc: "Oyster sauce: Flavor enhancers.",
     img: soysouce,
   },
-  {
-    title: "Water",
-    subtitle: "H2O",
-    desc: "Cooking medium.",
-    img: water,
-  },
+  // {
+  //   title: "Water",
+  //   subtitle: "H2O",
+  //   desc: "Cooking medium.",
+  //   img: water,
+  // },
 ];
