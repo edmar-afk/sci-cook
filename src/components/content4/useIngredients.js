@@ -2,10 +2,15 @@ import apple from "../../assets/images/ingredients/apple.png";
 import banana from "../../assets/images/ingredients/banana.png";
 import pineapple from "../../assets/images/ingredients/pineapple.png";
 import melon from "../../assets/images/ingredients/melon.png";
-import letturcucumbercarrotcabbage from "../../assets/images/ingredients/letturcucumbercarrotcabbage.jpg";
+import letuce from "../../assets/images/ingredients/letuce.png";
+import cucumber from "../../assets/images/ingredients/cucumber.png";
+import carrot from "../../assets/images/ingredients/carrot.png";
+import cabbage from "../../assets/images/ingredients/banana.png";
 import mayonaise from "../../assets/images/ingredients/mayonaise.jpg";
-import vinegar from "../../assets/images/ingredients/vinegar.jpg";
-import oilsugarsaltpepper from "../../assets/images/ingredients/oilsugarsaltpepper.jpg";
+import oil from "../../assets/images/ingredients/oil.png";
+import salt from "../../assets/images/ingredients/salt.png";
+import pepper from "../../assets/images/ingredients/pepper.png";
+import sugar from "../../assets/images/ingredients/sugar.png";
 export const cards = [
   {
     title: "Apple",
@@ -33,11 +38,28 @@ export const cards = [
   },
 
   {
-    title: "Lettuce, Cucumber, Carrot, Cabbage",
-    subtitle:
-      "Lactuca sativa, Cucumis sativus, Daucus carota, Brassica oleracea var. capitata",
-    desc: "Vegetables for salads.",
-    img: letturcucumbercarrotcabbage,
+    title: "Lettuce",
+    subtitle: "Lactuca sativa",
+    desc: "Leafy base for fresh salads.",
+    img: letuce,
+  },
+  {
+    title: "Cucumber",
+    subtitle: "Cucumis sativus",
+    desc: "Adds crisp and refreshing taste.",
+    img: cucumber,
+  },
+  {
+    title: "Carrot",
+    subtitle: "Daucus carota",
+    desc: "Adds natural sweetness and crunch.",
+    img: carrot,
+  },
+  {
+    title: "Cabbage",
+    subtitle: "Brassica oleracea var. capitata",
+    desc: "Crunchy vegetable for salads.",
+    img: cabbage,
   },
   {
     title: "Mayonnaise",
@@ -45,17 +67,34 @@ export const cards = [
     desc: "Creamy condiment.",
     img: mayonaise,
   },
+  // {
+  //   title: "Vinegar",
+  //   subtitle: "Acetic acid",
+  //   desc: "Acidic seasoning.",
+  //   img: vinegar,
+  // },
   {
-    title: "Vinegar",
-    subtitle: "Acetic acid",
-    desc: "Acidic seasoning.",
-    img: vinegar,
+    title: "Olive Oil",
+    subtitle: "Olea europaea",
+    desc: "Base oil for salad dressings.",
+    img: oil,
   },
   {
-    title: "Olive Oil, Sugar, Salt, Pepper",
-    subtitle:
-      "Olea europaea, (Saccharum officinarum), (Sodium chloride), (Piper nigrum)",
-    desc: "Dairy product providing creaminess and nutrients.",
-    img: oilsugarsaltpepper,
+    title: "Sugar",
+    subtitle: "Saccharum officinarum",
+    desc: "Adds sweetness to dressings.",
+    img: sugar,
+  },
+  {
+    title: "Salt",
+    subtitle: "Sodium chloride",
+    desc: "Enhances salad flavor.",
+    img: salt,
+  },
+  {
+    title: "Pepper",
+    subtitle: "Piper nigrum",
+    desc: "Adds mild spice and aroma.",
+    img: pepper,
   },
 ];

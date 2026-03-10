@@ -1,6 +1,10 @@
 import gelatinpowder from "../../assets/images/ingredients/gelatinpowder.jpg";
-import water from "../../assets/images/ingredients/water.jpg";
-import sugar from "../../assets/images/ingredients/sugar.jpg";
+// import water from "../../assets/images/ingredients/water.jpg";
+import sugar from "../../assets/images/ingredients/sugar.png";
+import apple from "../../assets/images/ingredients/apple.png";
+import banana from "../../assets/images/ingredients/banana.png";
+import pineapple from "../../assets/images/ingredients/pineapple.png";
+import melon from "../../assets/images/ingredients/melon.png";
 import applebananapineaplemelon from "../../assets/images/ingredients/applebananapineaplemelon.jpg";
 import condensed from "../../assets/images/ingredients/condensed.jpg";
 export const cards = [
@@ -10,12 +14,12 @@ export const cards = [
     desc: "Gelling agent.",
     img: gelatinpowder,
   },
-  {
-    title: "Water ",
-    subtitle: "H2O",
-    desc: "Cooking medium.",
-    img: water,
-  },
+  // {
+  //   title: "Water ",
+  //   subtitle: "H2O",
+  //   desc: "Cooking medium.",
+  //   img: water,
+  // },
   {
     title: "Sugar",
     subtitle: "Saccharum officinarum",
@@ -23,10 +27,28 @@ export const cards = [
     img: sugar,
   },
   {
-    title: "Fruits",
-    subtitle: "(Apple: Malus domestica, Banana: Musa spp., Pineapple: Ananas comosus, Melon: Cucumis melo)",
-    desc: "Flavor and nutrients.",
-    img: applebananapineaplemelon,
+    title: "Apple",
+    subtitle: "Malus domestica",
+    desc: "Adds sweetness and flavor.",
+    img: apple,
+  },
+  {
+    title: "Banana",
+    subtitle: "Musa spp.",
+    desc: "Adds natural sweetness and creaminess.",
+    img: banana,
+  },
+  {
+    title: "Pineapple",
+    subtitle: "Ananas comosus",
+    desc: "Adds tropical flavor and tanginess.",
+    img: pineapple,
+  },
+  {
+    title: "Melon",
+    subtitle: "Cucumis melo",
+    desc: "Adds refreshing sweetness.",
+    img: melon,
   },
   {
     title: "Condensed milk, All-purpose cream",
@@ -34,5 +56,4 @@ export const cards = [
     desc: "Dairy products for sweetness and texture.",
     img: condensed,
   },
- 
 ];
