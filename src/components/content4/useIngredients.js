@@ -5,7 +5,7 @@ import melon from "../../assets/images/ingredients/melon.png";
 import letuce from "../../assets/images/ingredients/letuce.png";
 import cucumber from "../../assets/images/ingredients/cucumber.png";
 import carrot from "../../assets/images/ingredients/carrot.png";
-import cabbage from "../../assets/images/ingredients/banana.png";
+import cabbage from "../../assets/images/ingredients/cabbage.png";
 import mayonaise from "../../assets/images/ingredients/mayonaise.jpg";
 import oil from "../../assets/images/ingredients/oil.png";
 import salt from "../../assets/images/ingredients/salt.png";
