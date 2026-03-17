@@ -19,7 +19,7 @@ export default function FirstIngredients() {
     {
       icon: eggIcon,
       title: "Egg (Gallus gallus domesticus)",
-      desc: "A fruit-vegetable widely used for its tangy flavor and juiciness. Common in salads, sauces, sautéed dishes, and garnishes. Contains vitamins A and C.",
+      desc: "A nutrient-rich animal product commonly used in a wide variety of dishes. Eggs are a good source of high-quality protein, vitamins such as B12 and D, and essential minerals. They can be boiled, fried, scrambled, or baked, and are widely used in cooking and baking.",
     },
     {
       icon: carrotIcon,

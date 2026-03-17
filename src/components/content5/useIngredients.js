@@ -18,8 +18,8 @@ export const cards = [
   },
   {
     title: "Ginger",
-    subtitle: "Bos taurus (from cow)",
-    desc: "Adds rich, creamy flavor.",
+    subtitle: "Zingiber officinale",
+    desc: "A flavorful root widely used as a spice and herbal remedy. It has a strong, slightly spicy taste and is commonly used in cooking, teas, and traditional medicine. Known for aiding digestion and reducing nausea.",
     img: ginger,
   },
   {
