@@ -1,5 +1,5 @@
 import bread from "../../assets/images/ingredients/bread.png";
-import butter from "../../assets/images/ingredients/butter.png";
+import ginger from "../../assets/images/ingredients/ginger.jpg";
 import margarine from "../../assets/images/ingredients/margarine.png";
 import ham from "../../assets/images/ingredients/ham.png";
 import luncheon from "../../assets/images/ingredients/luncheon.png";
@@ -17,10 +17,10 @@ export const cards = [
     img: bread,
   },
   {
-    title: "Butter",
+    title: "Ginger",
     subtitle: "Bos taurus (from cow)",
     desc: "Adds rich, creamy flavor.",
-    img: butter,
+    img: ginger,
   },
   {
     title: "Margarine",
@@ -40,12 +40,12 @@ export const cards = [
     desc: "Savory meat for sandwiches.",
     img: ham,
   },
-  {
-    title: "Luncheon Meat",
-    subtitle: "Sus scrofa domesticus (pig)",
-    desc: "Processed meat for sandwiches.",
-    img: luncheon,
-  },
+  // {
+  //   title: "Luncheon Meat",
+  //   subtitle: "Sus scrofa domesticus (pig)",
+  //   desc: "Processed meat for sandwiches.",
+  //   img: luncheon,
+  // },
   {
     title: "Lettuce",
     subtitle: "Lactuca sativa",

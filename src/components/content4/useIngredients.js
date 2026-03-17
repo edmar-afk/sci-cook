@@ -2,7 +2,7 @@ import apple from "../../assets/images/ingredients/apple.png";
 import banana from "../../assets/images/ingredients/banana.png";
 import pineapple from "../../assets/images/ingredients/pineapple.png";
 import melon from "../../assets/images/ingredients/melon.png";
-import letuce from "../../assets/images/ingredients/letuce.png";
+import basil from "../../assets/images/ingredients/basil.jpg";
 import cucumber from "../../assets/images/ingredients/cucumber.png";
 import carrot from "../../assets/images/ingredients/carrot.png";
 import cabbage from "../../assets/images/ingredients/cabbage.png";
@@ -38,11 +38,17 @@ export const cards = [
   },
 
   {
-    title: "Lettuce",
-    subtitle: "Lactuca sativa",
-    desc: "Leafy base for fresh salads.",
-    img: letuce,
+    title: "Basil",
+    subtitle: "Ocimum basilicum",
+    desc: "A fragrant herb commonly used in cooking, especially in sauces, salads, and Italian dishes.",
+    img: basil,
   },
+  //  {
+  //   title: "Lettuce",
+  //   subtitle: "Lactuca sativa",
+  //   desc: "Leafy base for fresh salads.",
+  //   img: letuce,
+  // },
   {
     title: "Cucumber",
     subtitle: "Cucumis sativus",

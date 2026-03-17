@@ -27,12 +27,12 @@ export const cards = [
     desc: "Starchy tuber.",
     img: potato,
   },
-  {
-    title: "Butter",
-    subtitle: "Bos taurus (from cow)",
-    desc: "Adds rich flavor to starch dishes.",
-    img: butter,
-  },
+  // {
+  //   title: "Butter",
+  //   subtitle: "Bos taurus (from cow)",
+  //   desc: "Adds rich flavor to starch dishes.",
+  //   img: butter,
+  // },
   {
     title: "Milk",
     subtitle: "Bos taurus (from cow)",

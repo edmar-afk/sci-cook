@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import carrot from "../../assets/images/ingredients/carrot.png";
 import cabbage from "../../assets/images/ingredients/cabbage.jpg";
 import pechay from "../../assets/images/ingredients/pechay.jpg";
@@ -10,7 +11,7 @@ import salt from "../../assets/images/ingredients/salt.png";
 import pepper from "../../assets/images/ingredients/pepper.png";
 import sitaw from "../../assets/images/ingredients/sitaw.jpg";
 import soysouce from "../../assets/images/ingredients/soysouce.jpg";
-// import water from "../../assets/images/ingredients/water.jpg";
+import potato from "../../assets/images/ingredients/potato.jpg";
 import coulibroccoli from "../../assets/images/ingredients/coulibroccoli.jpg";
 export const cards = [
   {
@@ -20,11 +21,17 @@ export const cards = [
     img: carrot,
   },
   {
-    title: "Cabbage ",
-    subtitle: "Brassica oleracea var. capitata",
-    desc: "Leafy vegetable rich in fiber and vitamins.",
-    img: cabbage,
+    title: "Potato",
+    subtitle: "Solanum tuberosum",
+    desc: "Starchy root vegetable rich in carbohydrates, potassium, and vitamin C.",
+    img: potato,
   },
+  // {
+  //   title: "Cabbage ",
+  //   subtitle: "Brassica oleracea var. capitata",
+  //   desc: "Leafy vegetable rich in fiber and vitamins.",
+  //   img: cabbage,
+  // },
   {
     title: "Pechay/Bok Choy",
     subtitle: "Brassica rapa subsp. Chinensis",
