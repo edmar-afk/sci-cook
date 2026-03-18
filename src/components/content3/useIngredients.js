@@ -9,7 +9,7 @@ import milk from "../../assets/images/ingredients/milk.jpg";
 import oil from "../../assets/images/ingredients/oil.png";
 import salt from "../../assets/images/ingredients/salt.png";
 import pepper from "../../assets/images/ingredients/pepper.png";
-import sitaw from "../../assets/images/ingredients/sitaw.jpg";
+import sitaw from "../../assets/images/ingredients/sitaw.png";
 import soysouce from "../../assets/images/ingredients/soysouce.jpg";
 import potato from "../../assets/images/ingredients/potato.jpg";
 import coulibroccoli from "../../assets/images/ingredients/coulibroccoli.jpg";
