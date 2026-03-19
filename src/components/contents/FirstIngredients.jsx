@@ -10,27 +10,27 @@ import tomatoIcon from "../../assets/images/icons/tomato.png";
 
 export default function FirstIngredients() {
   const images = [
-    { src: egg, alt: "Egg" },
-    { src: carrot, alt: "Carrot" },
-    { src: tomato, alt: "Tomato" },
+    // { src: egg, alt: "Egg" },
+    // { src: carrot, alt: "Carrot" },
+    // { src: tomato, alt: "Tomato" },
   ];
 
   const cardsData = [
-    {
-      icon: eggIcon,
-      title: "Egg (Gallus gallus domesticus)",
-      desc: "A nutrient-rich animal product commonly used in a wide variety of dishes. Eggs are a good source of high-quality protein, vitamins such as B12 and D, and essential minerals. They can be boiled, fried, scrambled, or baked, and are widely used in cooking and baking.",
-    },
-    {
-      icon: carrotIcon,
-      title: "Carrot (Daucus carota)",
-      desc: "A root vegetable that is naturally sweet and crunchy. Often used in salads, stir-fried, sautéed, or cooked in soups. Rich in beta-carotene (Vitamin A) and dietary fiber.",
-    },
-    {
-      icon: tomatoIcon,
-      title: "Tomato (Solanum lycopersicum)",
-      desc: "A fruit-vegetable widely used for its tangy flavor and juiciness. Common in salads, sauces, sautéed dishes, and garnishes. Contains vitamins A and C.",
-    },
+    // {
+    //   icon: eggIcon,
+    //   title: "Egg (Gallus gallus domesticus)",
+    //   desc: "A nutrient-rich animal product commonly used in a wide variety of dishes. Eggs are a good source of high-quality protein, vitamins such as B12 and D, and essential minerals. They can be boiled, fried, scrambled, or baked, and are widely used in cooking and baking.",
+    // },
+    // {
+    //   icon: carrotIcon,
+    //   title: "Carrot (Daucus carota)",
+    //   desc: "A root vegetable that is naturally sweet and crunchy. Often used in salads, stir-fried, sautéed, or cooked in soups. Rich in beta-carotene (Vitamin A) and dietary fiber.",
+    // },
+    // {
+    //   icon: tomatoIcon,
+    //   title: "Tomato (Solanum lycopersicum)",
+    //   desc: "A fruit-vegetable widely used for its tangy flavor and juiciness. Common in salads, sauces, sautéed dishes, and garnishes. Contains vitamins A and C.",
+    // },
   ];
 
   const extractNames = (title) => {
@@ -53,7 +53,7 @@ export default function FirstIngredients() {
 
   return (
     <>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -64,7 +64,7 @@ export default function FirstIngredients() {
         <p className="font-thin text-md">
           Have you used them before in cooking?
         </p>
-      </motion.div>
+      </motion.div> */}
 
       <div className="flex flex-col lg:flex-row items-center mt-8 gap-4 mx-0 lg:mx-8">
         {images.map((img, index) => (

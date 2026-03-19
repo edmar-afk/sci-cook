@@ -9,12 +9,12 @@ import cheese from "../../assets/images/ingredients/cheese.jpg";
 import tomato from "../../assets/images/ingredients/tomato.png";
 
 export const cards = [
-  {
-    title: "Egg",
-    subtitle: "Gallus gallus domesticus",
-    desc: "Protein-rich animal product used in cooking and baking.",
-    img: egg,
-  },
+  // {
+  //   title: "Egg",
+  //   subtitle: "Gallus gallus domesticus",
+  //   desc: "Protein-rich animal product used in cooking and baking.",
+  //   img: egg,
+  // },
   // {
   //   title: "Salt",
   //   subtitle: "Sodium chloride",
@@ -57,10 +57,10 @@ export const cards = [
     desc: "Tangy fruit-vegetable for flavor and color.",
     img: tomato,
   },
-  {
-    title: "Cheese",
-    subtitle: "Bos taurus (from cow)",
-    desc: "Dairy product for flavor and texture.",
-    img: cheese,
-  },
+  // {
+  //   title: "Cheese",
+  //   subtitle: "Bos taurus (from cow)",
+  //   desc: "Dairy product for flavor and texture.",
+  //   img: cheese,
+  // },
 ];

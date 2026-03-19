@@ -67,12 +67,12 @@ export const cards = [
     desc: "Crunchy vegetable for salads.",
     img: cabbage,
   },
-  {
-    title: "Mayonnaise",
-    subtitle: "Mayonnaise",
-    desc: "Creamy condiment.",
-    img: mayonaise,
-  },
+  // {
+  //   title: "Mayonnaise",
+  //   subtitle: "Mayonnaise",
+  //   desc: "Creamy condiment.",
+  //   img: mayonaise,
+  // },
   // {
   //   title: "Vinegar",
   //   subtitle: "Acetic acid",
