@@ -68,12 +68,12 @@ export const cards = [
     desc: "Salad dressings and marinades",
     img: oil,
   },
-  {
-    title: "Salt",
-    subtitle: "Sodium chloride",
-    desc: "Enhances flavor in food",
-    img: salt,
-  },
+  // {
+  //   title: "Salt",
+  //   subtitle: "Sodium chloride",
+  //   desc: "Enhances flavor in food",
+  //   img: salt,
+  // },
   {
     title: "Pepper ",
     subtitle: "Piper nigrum",

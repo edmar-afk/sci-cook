@@ -64,12 +64,12 @@ export const cards = [
     desc: "Creamy spread and protein filling.",
     img: mayo,
   },
-  {
-    title: "Salt",
-    subtitle: "Sodium chloride",
-    desc: "Enhances sandwich flavor.",
-    img: salt,
-  },
+  // {
+  //   title: "Salt",
+  //   subtitle: "Sodium chloride",
+  //   desc: "Enhances sandwich flavor.",
+  //   img: salt,
+  // },
   {
     title: "Pepper",
     subtitle: "Piper nigrum",

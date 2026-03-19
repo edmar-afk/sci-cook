@@ -75,12 +75,12 @@ export const cards = [
     desc: "Adds savory umami taste.",
     img: soysauce,
   },
-  {
-    title: "Salt",
-    subtitle: "Sodium chloride",
-    desc: "Enhances dish flavor.",
-    img: salt,
-  },
+  // {
+  //   title: "Salt",
+  //   subtitle: "Sodium chloride",
+  //   desc: "Enhances dish flavor.",
+  //   img: salt,
+  // },
   {
     title: "Pepper",
     subtitle: "Piper nigrum",

@@ -15,12 +15,12 @@ export const cards = [
     desc: "Protein-rich animal product used in cooking and baking.",
     img: egg,
   },
-  {
-    title: "Salt",
-    subtitle: "Sodium chloride",
-    desc: "Mineral used to enhance flavor and preserve food.",
-    img: salt,
-  },
+  // {
+  //   title: "Salt",
+  //   subtitle: "Sodium chloride",
+  //   desc: "Mineral used to enhance flavor and preserve food.",
+  //   img: salt,
+  // },
   {
     title: "Pepper",
     subtitle: "Piper nigrum",

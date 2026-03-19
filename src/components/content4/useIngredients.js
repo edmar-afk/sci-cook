@@ -91,12 +91,12 @@ export const cards = [
     desc: "Adds sweetness to dressings.",
     img: sugar,
   },
-  {
-    title: "Salt",
-    subtitle: "Sodium chloride",
-    desc: "Enhances salad flavor.",
-    img: salt,
-  },
+  // {
+  //   title: "Salt",
+  //   subtitle: "Sodium chloride",
+  //   desc: "Enhances salad flavor.",
+  //   img: salt,
+  // },
   {
     title: "Pepper",
     subtitle: "Piper nigrum",
