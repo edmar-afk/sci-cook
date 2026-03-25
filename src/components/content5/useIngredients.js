@@ -22,12 +22,12 @@ export const cards = [
     desc: "A flavorful root widely used as a spice and herbal remedy. It has a strong, slightly spicy taste and is commonly used in cooking, teas, and traditional medicine. Known for aiding digestion and reducing nausea.",
     img: ginger,
   },
-  {
-    title: "Margarine",
-    subtitle: "Vegetable oils",
-    desc: "Butter substitute for spreads.",
-    img: margarine,
-  },
+  // {
+  //   title: "Margarine",
+  //   subtitle: "Vegetable oils",
+  //   desc: "Butter substitute for spreads.",
+  //   img: margarine,
+  // },
   {
     title: "Cheese",
     subtitle: "Bos taurus(from cow)",

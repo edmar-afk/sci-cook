@@ -7,6 +7,12 @@ const data = [
   { common: "Cabbage", scientific: "Brassica oleracea var. capitata" },
   { common: "Apple", scientific: "Malus domestica" },
   { common: "Lettuce", scientific: "Lactuca sativa" },
+
+  { common: "Tomato", scientific: "Solanum lycopersicum" },
+  { common: "Carrot", scientific: "Daucus carota" },
+  { common: "Onion", scientific: "Allium cepa" },
+  { common: "Banana", scientific: "Musa acuminata" },
+  { common: "Corn", scientific: "Zea mays" },
 ];
 
 export default function Table() {
@@ -59,7 +65,7 @@ export default function Table() {
           </p>
         </div>
         <div className="bg-white p-4 sm:p-6">
-          <div className="overflow-x-auto rounded-lg">
+          <div className="rounded-lg">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>

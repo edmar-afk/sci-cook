@@ -92,12 +92,12 @@ export const cards = [
     desc: "Vegetables for stir-fry.",
     img: sitaw,
   },
-  {
-    title: "Soy sauce",
-    subtitle: "Glycine max",
-    desc: "Oyster sauce: Flavor enhancers.",
-    img: soysouce,
-  },
+  // {
+  //   title: "Soy sauce",
+  //   subtitle: "Glycine max",
+  //   desc: "Oyster sauce: Flavor enhancers.",
+  //   img: soysouce,
+  // },
   // {
   //   title: "Water",
   //   subtitle: "H2O",
