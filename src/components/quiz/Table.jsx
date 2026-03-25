@@ -12,7 +12,7 @@ const data = [
   { common: "Carrot", scientific: "Daucus carota" },
   { common: "Onion", scientific: "Allium cepa" },
   { common: "Banana", scientific: "Musa acuminata" },
-  { common: "Corn", scientific: "Zea mays" },
+  { common: "Olive Oil", scientific: "Olea europaea" },
 ];
 
 export default function Table() {
