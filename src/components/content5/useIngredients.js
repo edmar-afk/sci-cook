@@ -58,12 +58,12 @@ export const cards = [
     desc: "Adds freshness to sandwiches.",
     img: tomato,
   },
-  {
-    title: "Mayonnaise & Egg",
-    subtitle: "Mayonnaise, Gallus gallus domesticus",
-    desc: "Creamy spread and protein filling.",
-    img: mayo,
-  },
+  // {
+  //   title: "Mayonnaise & Egg",
+  //   subtitle: "Mayonnaise, Gallus gallus domesticus",
+  //   desc: "Creamy spread and protein filling.",
+  //   img: mayo,
+  // },
   // {
   //   title: "Salt",
   //   subtitle: "Sodium chloride",
